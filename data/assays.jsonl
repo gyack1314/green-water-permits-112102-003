@@ -2,3 +2,5 @@
 {"assay":"A2","sample":"S1","analyte":"Cd","method":"M2","unit":"mg/L","result_type":"below_limit","value":"0.02","status":"valid","replace_assay":null,"at":"2026-11-02"}
 {"assay":"A3","sample":"S1-A","analyte":"COD","method":"M1","unit":"mg/L","result_type":"exact","value":"53","status":"valid","replace_assay":"A1","at":"2026-11-04"}
 {"assay":"A4","sample":"S2","analyte":"COD","method":"M1","unit":"mg/L","result_type":"exact","value":"130","status":"valid","replace_assay":null,"at":"2026-11-02"}
+{"assay":"A5","sample":"S3","analyte":"COD","method":"M1","unit":"mg/L","result_type":"exact","value":"40","status":"valid","replace_assay":null,"at":"2026-11-02"}
+{"assay":"A6","sample":"S4","analyte":"COD","method":"M1","unit":"mg/L","result_type":"exact","value":"100","status":"valid","replace_assay":null,"at":"2026-11-02"}

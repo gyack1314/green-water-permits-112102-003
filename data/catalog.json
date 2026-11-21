@@ -3,7 +3,7 @@
   "files": [
     {
       "path": "data/flow.parquet",
-      "rows": 4,
+      "rows": 6,
       "columns": [
         "segment",
         "point",
@@ -11,12 +11,12 @@
         "end",
         "m3"
       ],
-      "sha256": "d3eb8478421b834031f98b486fee6a017c43e6f36772c7a237b974759074934a",
+      "sha256": "9027606bf1702c15cc9156629ac6304bf39e3468b1cfb1afe1e9191b87e678a7",
       "stage": "original"
     },
     {
       "path": "data/samples.jsonl",
-      "rows": 3,
+      "rows": 5,
       "columns": [
         "custody",
         "end",
@@ -26,12 +26,12 @@
         "sample",
         "start"
       ],
-      "sha256": "e93a3730aa1d882254b7e58a57070c2702451432357ca6221832e945776fc986",
+      "sha256": "5634bd5233b609e208ac62225f1f7ff55263315e9527f0f7f3433d2ed8095d64",
       "stage": "original"
     },
     {
       "path": "data/custody.csv",
-      "rows": 4,
+      "rows": 6,
       "columns": [
         "id",
         "from",
@@ -39,12 +39,12 @@
         "at",
         "accepted"
       ],
-      "sha256": "41674ec7a0077aa52fc48821858a184aa05f545fe032f50246ac572c11abb062",
+      "sha256": "7de359b189b63f1ea22cc23800e1d5043e9b70cf2c611357ae8f230a57bb6a2b",
       "stage": "original"
     },
     {
       "path": "data/assays.jsonl",
-      "rows": 4,
+      "rows": 6,
       "columns": [
         "analyte",
         "assay",
@@ -57,12 +57,12 @@
         "unit",
         "value"
       ],
-      "sha256": "d7ff9f3f4e9233c7bd2283dd9eaf9cd321843b9b44d9af8c41ef95e3f7e17453",
+      "sha256": "901f2f6080a2a43b8b85ab7d19881078395124003f295c28cf378d0facd8a4f3",
       "stage": "original"
     },
     {
       "path": "data/mixing.csv",
-      "rows": 2,
+      "rows": 3,
       "columns": [
         "intake",
         "outlet",
@@ -74,7 +74,7 @@
         "revision",
         "observed_at"
       ],
-      "sha256": "c0d89b7e7f2f2e339fb6016bbf1d88e40bd43b9d62ac32a8173877929519f2e5",
+      "sha256": "b31658058960d7f4e7a5786e9e428219336c6f87481ae871a8f95d32a3568fbb",
       "stage": "original"
     },
     {

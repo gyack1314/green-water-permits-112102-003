@@ -1,3 +1,5 @@
 {"sample":"S1","point":"OUT","start":"2026-11-01T06:00:00Z","end":"2026-11-01T12:00:00Z","mode":"composite","parent":null,"custody":["C1","C2"]}
 {"sample":"S1-A","point":"OUT","start":"2026-11-01T06:00:00Z","end":"2026-11-01T12:00:00Z","mode":"composite","parent":"S1","custody":["C1","C2","C3"]}
 {"sample":"S2","point":"IN-A","start":"2026-11-01T00:00:00Z","end":"2026-11-01T06:00:00Z","mode":"composite","parent":null,"custody":["C4"]}
+{"sample":"S3","point":"OUT","start":"2026-11-01T18:00:00Z","end":"2026-11-01T20:00:00Z","mode":"composite","parent":null,"custody":["C5"]}
+{"sample":"S4","point":"IN-A","start":"2026-11-01T12:00:00Z","end":"2026-11-01T14:00:00Z","mode":"composite","parent":null,"custody":["C6"]}
