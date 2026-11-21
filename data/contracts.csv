@@ -1,0 +1,3 @@
+factory,analyte,sampling_point,accepted_method,price_per_kg
+A,COD,IN-A,M1,2.1
+B,COD,IN-B,M1,1.9

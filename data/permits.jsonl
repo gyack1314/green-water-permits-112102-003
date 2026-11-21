@@ -1,0 +1,2 @@
+{"permit":"P1","point":"OUT","analyte":"COD","method":"M1","valid_from":"2026-11-01T00:00:00Z","valid_to":"2026-11-01T10:00:00Z","concentration_max":"50","rolling_kg_max":"20","window_hours":24}
+{"permit":"P2","point":"OUT","analyte":"COD","method":"M1","valid_from":"2026-11-01T10:00:00Z","valid_to":"2026-12-01T00:00:00Z","concentration_max":"45","rolling_kg_max":"18","window_hours":24}

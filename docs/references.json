@@ -1,0 +1,14 @@
+[
+  {
+    "source": "data/assays.jsonl",
+    "source_key": "sample",
+    "target": "data/samples.jsonl",
+    "target_key": "sample"
+  },
+  {
+    "source": "data/samples.jsonl",
+    "source_key": "custody",
+    "target": "data/custody.csv",
+    "target_key": "id"
+  }
+]

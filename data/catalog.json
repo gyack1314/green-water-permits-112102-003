@@ -1,0 +1,128 @@
+{
+  "synthetic": true,
+  "files": [
+    {
+      "path": "data/flow.parquet",
+      "rows": 4,
+      "columns": [
+        "segment",
+        "point",
+        "start",
+        "end",
+        "m3"
+      ],
+      "sha256": "d3eb8478421b834031f98b486fee6a017c43e6f36772c7a237b974759074934a",
+      "stage": "original"
+    },
+    {
+      "path": "data/samples.jsonl",
+      "rows": 3,
+      "columns": [
+        "custody",
+        "end",
+        "mode",
+        "parent",
+        "point",
+        "sample",
+        "start"
+      ],
+      "sha256": "77827a3e497d7189d52e75f4e99bb4b1dc74b2eb71da981159ff74610d95145b",
+      "stage": "original"
+    },
+    {
+      "path": "data/custody.csv",
+      "rows": 4,
+      "columns": [
+        "id",
+        "from",
+        "to",
+        "at",
+        "accepted"
+      ],
+      "sha256": "41674ec7a0077aa52fc48821858a184aa05f545fe032f50246ac572c11abb062",
+      "stage": "original"
+    },
+    {
+      "path": "data/assays.jsonl",
+      "rows": 4,
+      "columns": [
+        "analyte",
+        "assay",
+        "at",
+        "method",
+        "replace_assay",
+        "result_type",
+        "sample",
+        "status",
+        "unit",
+        "value"
+      ],
+      "sha256": "c62055f02b57e50c2f5aebb9ccbfec1cac717b7f36c2e17685f264c961f8dd2e",
+      "stage": "original"
+    },
+    {
+      "path": "data/mixing.csv",
+      "rows": 2,
+      "columns": [
+        "intake",
+        "outlet",
+        "in_start",
+        "in_end",
+        "out_start",
+        "out_end",
+        "attributed_m3",
+        "revision",
+        "observed_at"
+      ],
+      "sha256": "c0d89b7e7f2f2e339fb6016bbf1d88e40bd43b9d62ac32a8173877929519f2e5",
+      "stage": "original"
+    },
+    {
+      "path": "data/permits.jsonl",
+      "rows": 2,
+      "columns": [
+        "analyte",
+        "concentration_max",
+        "method",
+        "permit",
+        "point",
+        "rolling_kg_max",
+        "valid_from",
+        "valid_to",
+        "window_hours"
+      ],
+      "sha256": "627a80c29552c19c6c4895a158183625411054009f72acd014b59e2b2266a6ed",
+      "stage": "original"
+    },
+    {
+      "path": "data/contracts.csv",
+      "rows": 2,
+      "columns": [
+        "factory",
+        "analyte",
+        "sampling_point",
+        "accepted_method",
+        "price_per_kg"
+      ],
+      "sha256": "9bcbe70d1f589e1d0100fb6e2cfc36236b81525e53a4fabccf6a0fc8ffbcccbc",
+      "stage": "original"
+    },
+    {
+      "path": "data/updates/mixing.csv",
+      "rows": 2,
+      "columns": [
+        "intake",
+        "outlet",
+        "in_start",
+        "in_end",
+        "out_start",
+        "out_end",
+        "attributed_m3",
+        "revision",
+        "observed_at"
+      ],
+      "sha256": "2f6622ad3238219c7cfa2582f4b794bf254879b2ea1a8c013ce24791867a515c",
+      "stage": "supplement"
+    }
+  ]
+}
